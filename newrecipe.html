@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Cook up something...</title>
+
+	<link href="../static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<main>
+		<a href="/">
+			<button>Back to home</button>
+		</a>
+		<h1 class="title">Submit a Recipe</h1>
+		<form action="/newrecipe" method="post">
+		<p>Recipe Name: <input name="Dish"></p>
+		<p>Recipe:</p>
+			<textarea name="RecipeBody" rows = "4" cols="50">Write something delicious...</textarea>
+			<p><input type="submit"></p>
+		</form>
+
+</body>
+
+</html>
